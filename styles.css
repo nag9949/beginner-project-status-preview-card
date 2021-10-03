@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  margin-top: 100px;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: rgba(123, 37, 194, 0.788);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.card {
+  border-radius: 5px;
+}
+
+.card-info {
+  padding: 3rem;
+}
+
+.card-info h1 {
+  margin-bottom: 1rem;
+  color: white;
+  font-size: 2rem;
+}
+
+.card-img {
+  height: 49.8vh;
+  color: yellow;
+  z-index: 1;
+}
+
+.followers {
+  display: flex;
+  gap: 1rem;
+  margin-top: 4rem;
+  margin-bottom: 0rem;
+}
+
+.follow h3 {
+  color: white;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #ebe0e0;
+}
